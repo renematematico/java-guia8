@@ -47,7 +47,13 @@ public class CuentaBancaria {
         this.saldoActual = saldoActual;
     }
     
+///TO STRING
 
+    @Override
+    public String toString() {
+        return "CuentaBancaria{" + "numeroCuenta Nº" + numeroCuenta + ", D.N.I.= " + dniCliente + ", saldoActual= $" + saldoActual + '}';
+    }
+    
     
     
     
